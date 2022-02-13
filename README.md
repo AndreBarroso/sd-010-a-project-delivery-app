@@ -33,9 +33,59 @@ Agora é mãos à obra! Vamos começar?
 - Implementar a funcionalidade de comunicação em tempo real, utilizando o socket.io.
 - Manter aderência aos princípios SOLID;
 
+## Instruções para executar o projeto em seu próprio computador
 
 
+1. Abra o terminal, acesse o diretório de sua preferência onde 
+você deseja fazer o download, e crie uma pasta usando o comando **mkdir**:
+```bash
+mkdir projeto-andre
+```
 
+2. Entre no diretório que você acabou de criar: 
+```bash
+cd projeto-andre
+```
+
+3. Faça o clone do projeto executando o comando a seguir:
+```bash
+git clone https://github.com/AndreBarroso/sd-010-a-project-delivery-app.git
+```
+4. Acesse a pasta criada executando o comando a seguir:
+```bash
+cd sd-010-a-project-delivery-app.git
+```
+
+5. Instale as dependências gerais do projeto executando:
+```bash
+npm install;
+```
+6. Com cd acesse a pasta backend e instale suas dependência:
+```bash
+npm install;
+```
+
+7. Inicie os servidor backend executando:
+```bash
+npm start;
+```
+
+8. Acesse a pasta frontend e instale suas dependência:
+```bash
+npm install;
+```
+
+9. Inicie a aplicação executando:
+```bash
+npm start;
+```
+Após npm start a página abrirá em seu navegado.
+
+10. Agora você pode fechar o terminal;
+
+Para quaisquer dúvidas, entre em contato comigo pelo email: andrefb.eng1@gmail.com .
+
+---
 
 # Requisitos do projeto
 
@@ -978,60 +1028,3 @@ Garanta que tanto o seu `front-end` quanto `back-end` possuem testes que cubram 
 
 ---
 
-## `Extra não avaliativo`
-
-### Realizar o deploy do projeto back-end e front-end
-
-**Terminei meu projeto, e agora?** Uma prática legal, caso queira apresentar ou publicar seu projeto, é dar `deploy` na sua aplicação.
-
-Um bom exercício aqui é utilizar seu aprendizado de [`Heroku`](https://app.betrybe.com/course/back-end/deployment/infraestrutura-deploy-com-heroku/30597149-145b-49a1-924c-bd8050a8f249) para subir as duas aplicações, garantindo a comunicação de uma com a outra.
-
-Um ponto importante aqui, é que também é necessário subir um banco de dados no Heroku para levar seus dados para a nuvem. O Heroku conta com o [`ClearDB`](https://devcenter.heroku.com/articles/cleardb) *(Artigo em inglês)*, para te ajudar nessa tarefa!
-
----
-
-### Qual poderia ser o próximo passo?
-
-Se seu projeto estiver concluído, considere a expansão que ele pode passar ao longo do tempo. Esse projeto consegue expandir suas entidades? Consegue ter outros módulos (um web-chat, uma área de gerentes de vendedores, instâncias para lojas)?
-
-É super importante que tenhamos seguido todos os princípios e boas práticas de programação (como `SOLID`, por exemplo), tal como uma boa modelagem do banco de dados que torne possível gerar **escala**.
-
-Evidentemente, nada fica ideal num primeiro momento, mas quanto mais conseguirmos trabalhar no nosso projeto pensando a manutenção dele no longo prazo, mais fácil fica de programarmos coisas novas partindo do nosso código legado, por isso é importante sempre revisar nosso trabalho!
-
----
-
-# Depois de terminar o desenvolvimento
-
-Para sinalizar que o seu projeto está pronto para _"Code Review"_, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-010-a`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-# Revisando um pull request
-
-Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
-
-#VQV
-
----
-
-# Avisos finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://bit.ly/39qMu3s)
-
-#VQV
-
----
-
-Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
